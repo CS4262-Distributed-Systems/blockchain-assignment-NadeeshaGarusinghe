@@ -239,10 +239,7 @@ public final class AssetTransfer implements ContractInterface {
 
     /***
      * Duplicate Asset with a new owner
-     *
-     * This transaction will take an asset id and an owner, duplicate the asset and assign the duplicate to the new owner
-     * while keeping the original asset with the previous original owner.
-     *
+     **
      * @param ctx the transaction context
      * @param assetID the ID of the asset being duplicated
      * @param newAssetID the new ID of the asset being duplicated
